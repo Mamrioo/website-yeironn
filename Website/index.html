@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I AM</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Ma</span><span class="span2">rio</span></a>
+
+        <nav class="navbar">
+            <a href="#home" class="Active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm<span> Mario</span></h1>
+            <p>I am a student of software programming and I belong to the group 2878263</p>
+        </div>
+        <div class="img-box">
+            <img src="imagenes/image me.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2 class="heading"> About<span class="span3"> Me </span></h2>
+            <h3> and software <span class="span4"> programming </span></h3>
+            <p>My name is Carlos Mario Londoño. I'm from Colombia, I'm 20 years old and I'm currently studying software development, just 1 year ago I finished my military service specializing in lethal and non-lethal weaponry becoming the best in my group.<br class="br">I was given the opportunity to study something that I always found curious and a world that I always wanted to know and fill me with knowledge which was programming.
+            I decided to study programming thanks to my best friend, he insisted that I should study software programming both for the challenge of learning and for the opportunities it would give me, so now I continue studying and without giving up.
+            </p>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section-imagenes">
+        <h2>Tastes And Curiosities About Me</h2>
+        <div class="images">
+            <div>
+                <img src="imagenes/imagen techai.jpg" alt="">
+                <h3>What I Like</h3>
+                <p>I like to take pictures of literally everything. <br>play video games with my friends and watch live on gaming platforms.</p>
+            </div>
+            <div>
+                <img class="lolsito" src="imagenes/imagenmanejando.jpg" alt="">
+                <h3>What I Truly Like</h3>
+                <p>I really enjoy driving anywhere, whether in the city or on long family trips.</p>
+            </div>
+            <div>
+                <img src="imagenes/imagen viajando.jpg" alt="">
+                <h3>My Future Goals</h<|meta_end|></h3>
+                <p>I want to finish my programming course and go on to university as a systems engineer. <br>I want to travel to Canada with my studies completed and settle there with a job and housing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h2 class="contact-me">Contact<span class="span5"> me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input placeholder="Full name" type="text">
+                <input placeholder="Email" type="email">  
+            </div>
+            <div class="input-box">
+                <input placeholder="Phone Number" type="Number">
+                <input placeholder="Subject" type="text">  
+            </div>
+            <textarea name="" id="" cols="30" rows="8"></textarea>
+            <input type="Submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/mario.vq.94?locale=es_LA"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/mamrio_lvq/?hl=es-es"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://www.tiktok.com/@bazu_2k?lang=es"><i class='bx bxl-tiktok'></i></a>
+        </div>
+        <p class="copyright">&copy; 2024 Mario | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
