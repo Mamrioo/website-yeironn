@@ -297,8 +297,6 @@ list-style: none;
     background-color:rgb(53, 53, 53);
     text-align: center;
     font-size: 3em;
-
-
 }
 
 .activitis h2{
@@ -307,3 +305,4 @@ list-style: none;
 
 .activitis h2:hover{
     color: aqua;
+}
