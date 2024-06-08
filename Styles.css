@@ -293,3 +293,17 @@ list-style: none;
 }
 
 
+.activitis{
+    background-color:rgb(53, 53, 53);
+    text-align: center;
+    font-size: 3em;
+
+
+}
+
+.activitis h2{
+    color: orangered;
+}
+
+.activitis h2:hover{
+    color: aqua;
