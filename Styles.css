@@ -306,3 +306,46 @@ list-style: none;
 .activitis h2:hover{
     color: aqua;
 }
+
+.infograp {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.infograp h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.infograp h3:hover{
+    color: aqua;
+}
+
+.infograp h4 {
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.infograp h4:hover{
+    color: orangered;
+}
+
+.infograp p {
+    margin-bottom: 20px;
+}
+
+.infograp ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.infograp li {
+    margin-bottom: 10px;
+}
